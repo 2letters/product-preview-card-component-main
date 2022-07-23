@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    color: hsl(228, 12%, 48%);
+    overflow: hidden;
+}
+
+.image-desktop {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+    opacity: 1;
+}
+
+.image-mobile {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+    opacity: 0;
+}
+
+.info {
+    padding: 31px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.33em;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: hsl(212, 21%, 14%);
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-right: 20px;
+    letter-spacing: -0.035em;
+    line-height: 32px;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 23px;
+    line-height: 23px;
+}
+
+.prise {
+    display: flex;
+    align-items: center;
+    margin-top: 27px;
+    margin-left: 1px;
+}
+
+.first {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);
+    letter-spacing: -0.025em;
+}
+
+.second {
+    font-size: 13px;
+    text-decoration: line-through;
+    margin-left: 22px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.btn-design {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 236px;
+    border-radius: 7px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 200ms cubic-bezier(.77, .01, .97, .98);
+    border: none;
+}
+
+.btn-design:focus {
+    background-color: #1A4031;
+}
+
+.btn-design:hover {
+    background-color: #1A4031;
+}
+
+.icon {
+    margin-right: 11px;
+}
+
+@media screen and (max-width: 700px){
+
+    main {
+        flex-direction: column;
+        width: 343px;
+        height: auto;
+    }
+
+    .image-desktop {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .image-mobile {
+        width: 343px;
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+        opacity: 1;
+    }
+
+    .info {
+        padding: 24px;
+    }
+
+    h1 {
+        margin: 12px 0 0 0;
+    }
+
+    .description {
+        margin-top: 15px;
+        letter-spacing: -0.035em;
+    }
+
+    .prise {
+        margin-top: 45px;
+    }
+
+    .btn {
+        margin-top: 16px;
+    }
+
+    .btn-design {
+        width: 295px;
+    }
+
+}
