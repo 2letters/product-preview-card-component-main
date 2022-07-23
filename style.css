@@ -26,21 +26,15 @@ main {
 }
 
 .image-desktop {
-    position: relative;
-    display: flex;
     width: 300px;
     height: 450px;
     border-radius: 10px 0 0 10px;
-    opacity: 1;
 }
 
 .image-mobile {
-    position: relative;
-    display: flex;
     width: 300px;
     height: 450px;
     border-radius: 10px 0 0 10px;
-    opacity: 0;
 }
 
 .info {
@@ -98,24 +92,18 @@ h1 {
 }
 
 .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 26px;
     width: 236px;
 }
 
 .btn-design {
     font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Montserrat', sans-serif;
     height: 48px;
     width: 236px;
     border-radius: 7px;
     background-color: hsl(158, 36%, 37%);
     color: white;
-    text-decoration: none;
     font-size: 14px;
     transition: 200ms cubic-bezier(.77, .01, .97, .98);
     border: none;
@@ -142,15 +130,13 @@ h1 {
     }
 
     .image-desktop {
-        position: absolute;
-        opacity: 0;
+        display: none;
     }
 
     .image-mobile {
         width: 343px;
         height: 240px;
         border-radius: 10px 10px 0 0;
-        opacity: 1;
     }
 
     .info {
