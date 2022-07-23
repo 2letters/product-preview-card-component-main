@@ -62,9 +62,10 @@ h1 {
     color: hsl(212, 21%, 14%);
     margin-top: 20px;
     margin-left: 1px;
-    margin-right: 20px;
     letter-spacing: -0.035em;
     line-height: 32px;
+    align-self: start;
+    width: 200px;
 }
 
 .description {
@@ -72,6 +73,7 @@ h1 {
     font-weight: 500;
     margin-top: 23px;
     line-height: 23px;
+    width: 237px;
 }
 
 .prise {
@@ -100,6 +102,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-top: 26px;
+    width: 236px;
 }
 
 .btn-design {
@@ -156,11 +159,13 @@ h1 {
 
     h1 {
         margin: 12px 0 0 0;
+        width: auto;
     }
 
     .description {
         margin-top: 15px;
         letter-spacing: -0.035em;
+        width: auto;
     }
 
     .prise {
@@ -169,10 +174,12 @@ h1 {
 
     .btn {
         margin-top: 16px;
+        width: 295px;
     }
 
     .btn-design {
-        width: 295px;
+        min-width: 295px;
+        width: auto;
     }
 
 }
