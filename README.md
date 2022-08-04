@@ -20,8 +20,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://)
-- Live Site URL: [Site](https://)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/flexbox-product-preview-card-component-I-JZS6bwx7)
+- Live Site URL: [Site](https://product-preview-card-component-main-eight.vercel.app/)
 
 ## My process
 
